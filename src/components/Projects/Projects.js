@@ -50,7 +50,7 @@ function Projects() {
             <ProjectCard
               imgPath={project3}
               isBlog={false}
-              title="Android App - 술자리의 민족"
+              title="Android App 술자리의 민족"
               description="Expo 기반의 안드로이드 앱을 제작하여 구글플레이스토어에 배포하였습니다. 회식자리 때 건배사하기 민망했던 경험들에서 아이디어를 얻고 만든 앱입니다. React Native를 깊게 활용한 건 아니지만, 웹이 아닌 첫 앱 개발이었고 실제로 플레이스토어에 배포해본 만큼 매우 의미있었던 프로젝트입니다."
               role="전반적인 UI 프론트 작업"
               period="2022/05/16~2022/05/30"
@@ -63,7 +63,7 @@ function Projects() {
             <ProjectCard
               imgPath={project4}
               isBlog={false}
-              title="Block Explorer 사이트 제작"
+              title="이더리움 기반 Block Explorer 사이트"
               description="geth를 사용하여 이더리움 기반 private 블록체인 네트워크를 구축하고, socket.io와 web3 라이브러리를 사용하여 발생한 트랜잭션과 채굴된 블록 정보를 실시간으로 조회할 수 있는 사이트를 만들었습니다. 화려한 기능 구현보다는 기존의 etherscan의 역할에 집중하여 블록, 트랜잭션의 실시간 정보 제공과 React를 통한 부드러운 페이지 전환이 목표였던 프로젝트입니다."
               role="개인 프로젝트 "
               period="2022/07/04~2022/07/08"
@@ -75,7 +75,7 @@ function Projects() {
             <ProjectCard
               imgPath={project5}
               isBlog={false}
-              title="nft 음원 거래 사이트 - Dapptunes"
+              title="nft 음원 거래 사이트 Dapptunes"
               description="metatrend 라는 기업과의 협업하여 nft 음원을 민팅하고 판매, 구매, 경매 및 스트리밍할 수 있는 사이트인 Dapptunes를 제작했습니다. Docker를 사용하여 테스트용 프라이빗 네트워크를 만들고, Next js 기반 프론트를 구축, Redux tool kit으로 전역 상태를 관리하는 방법을 익혔습니다. 기업과의 협약 프로젝트이자 장기 프로젝트의 팀장 역할이었기에 무엇보다도 협업사 측과의 의사소통, 팀원들의 페이스 조절에 힘썼던 프로젝트입니다."
               role="팀장 및 네트워크 구축, 민팅, 토큰 판매, 플레이어 기능"
               period="2022/08/19~2022/09/26"

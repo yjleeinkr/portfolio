@@ -262,6 +262,7 @@ button:focus {
   background-image: var(--section-background-color);
   background-position: top center;
   background-repeat: no-repeat;
+  height: 100vh;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
 }
