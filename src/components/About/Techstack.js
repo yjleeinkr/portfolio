@@ -59,7 +59,7 @@ function Techstack() {
             <br />
             - RESTful한 API에 대한 고민을 하며 그에 기반한 라우터 작성 가능
             <br />
-            - socket io 를 사용하여 같은 실시간 통신 구현 가능
+            - socket io 를 사용하여 실시간 통신 구현 가능
             <br />
           </div>
         </StackDetail>

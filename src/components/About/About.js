@@ -37,6 +37,7 @@ function About() {
         <h1 className="project-heading">
           활용 가능한 <strong className="purple">기술 스택 </strong>
         </h1>
+        <span>각 스택에 hover 해주세요</span>
 
         <Techstack />
 
