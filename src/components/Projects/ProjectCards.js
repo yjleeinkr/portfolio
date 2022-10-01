@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
+import { BiVideo } from "react-icons/bi";
 import { Subtitle } from "./Subtitle";
 
 function ProjectCards(props) {
@@ -43,6 +44,17 @@ function ProjectCards(props) {
           >
             <CgWebsite /> &nbsp;
             {"Demo"}
+          </Button>
+        )}
+        {props.isVideo && (
+          <Button
+            variant="primary"
+            href={props.demoLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <BiVideo /> &nbsp;
+            {"Video"}
           </Button>
         )}
       </Card.Body>

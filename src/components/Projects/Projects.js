@@ -7,6 +7,7 @@ import project2 from "../../Assets/Projects/pj2.gif";
 import project3 from "../../Assets/Projects/pj3.gif";
 import project4 from "../../Assets/Projects/pj4.gif";
 import project5 from "../../Assets/Projects/pj5.gif";
+import Button from "react-bootstrap/Button";
 
 function Projects() {
   return (
@@ -81,6 +82,7 @@ function Projects() {
               period="2022/08/19~2022/09/26"
               ghLink="https://github.com/acentmeta"
               demoLink="https://team-1-nft-unes-fe.vercel.app/"
+              isVideo="https://www.youtube.com/watch?v=NHfNNjui88Q"
             />
           </Col>
         </Row>

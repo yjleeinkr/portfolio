@@ -57,9 +57,10 @@ function Techstack() {
             <br />
             - 사이트의 기본적인 CRUD 작업 가능
             <br />
-            - RESTful한 API에 대한 고민을 하며 그에 기반한 라우터 작성 가능
+            - webSocket, socket.io 를 사용하여 실시간 통신 구현 가능
             <br />
-            - socket io 를 사용하여 실시간 통신 구현 가능
+            - 로컬 로그인, 회원가입 + 카카오, 네이버 Oauth 로그인, 회원가입 구현
+            가능
             <br />
           </div>
         </StackDetail>
