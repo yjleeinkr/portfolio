@@ -13,6 +13,8 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import { CopyToClipboard } from "react-copy-to-clipboard";
+import { AiOutlineMail } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -115,6 +117,15 @@ function NavBar() {
           </Nav>
         </Navbar.Collapse>
       </Container>
+      <CopyToClipboard
+        text={"yjleeinkr@gmail.com"}
+        onCopy={() => alert("이메일 주소가 복사되었습니다!")}
+      >
+        <span className="email" title="클릭 시 주소가 복사됩니다.">
+          {" "}
+          <AiOutlineMail /> yjleeinkr@gmail.com
+        </span>
+      </CopyToClipboard>
     </Navbar>
   );
 }

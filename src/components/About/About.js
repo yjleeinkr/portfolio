@@ -44,7 +44,7 @@ function About() {
         <h1 className="project-heading">개발 시 사용 가능한 툴</h1>
         <Toolstack />
 
-        <Github />
+        {/* <Github /> */}
       </Container>
     </Container>
   );

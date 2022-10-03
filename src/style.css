@@ -82,6 +82,8 @@ button:focus {
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar {
@@ -89,6 +91,20 @@ button:focus {
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  color: rgb(24, 114, 203);
+  align-self: flex-end;
+  transform: translateY(-100%);
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.email:hover {
+  color: white;
 }
 
 .navbar-toggler {
