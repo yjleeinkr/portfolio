@@ -476,7 +476,7 @@ button:focus {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
-  cursor: pointer;
+  cursor: pointer !important;
 }
 
 .project-card-view {
